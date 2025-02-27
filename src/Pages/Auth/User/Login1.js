@@ -173,12 +173,12 @@ export default function Login() {
                 alt="site-logo"
               />
               <h2 className="mb-[25px] leading-tight text-[22px] font-bold ">
-                Upgrade your life with a global tech HR platform
+                Upgrade your life with a social worker NGO platform
               </h2>
               <p className="tracking-tight leading-tight">
-                Access to a wide range of remote jobs, allowing for a better
-                work-life balance, increased productivity, and reduced stress
-                levels. Join today and start experiencing the benefits of remote
+                Access to a wide range of social works, allowing for a better
+                lifestyle of other people, as well as reduced poverty levels in
+                the world. Join today and start experiencing the benefits of social
                 work.
               </p>
             </div>
@@ -212,7 +212,7 @@ export default function Login() {
                       }}
                       className="mx-auto w-full text-center font-bold text-black "
                     >
-                      Log in as a developer
+                      Log in as a social worker
                     </Typography>
                     <img
                       src={forgotPasswordImg}
@@ -300,7 +300,7 @@ export default function Login() {
                       }}
                       className="mx-auto w-full text-center font-bold text-black "
                     >
-                      Log in as a developer
+                      Log in as a social worker
                     </Typography>
                     <Box
                       component="form"

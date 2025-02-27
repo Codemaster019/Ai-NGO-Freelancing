@@ -81,7 +81,7 @@ export const ComHeader = () => {
   return (
     <div className="com-profile__inner">
       <Link to="/">
-        <h1 className="text-[#0050C8] text-[20px] font-bold">TheJobportal</h1>
+        <h1 className="text-[#0050C8] text-[20px] font-bold">NGO</h1>
       </Link>
       <div className="com-profile__bar">
         <div className="bell-wrapper">

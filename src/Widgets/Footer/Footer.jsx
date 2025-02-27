@@ -80,7 +80,7 @@ export function Footer (props)  {
           <div className="flex space-x-[190px]   pt-[55px] items-start">
             <div>
               <h1 className="text-[#0050C8] text-[20px] font-bold">
-                TheJobportal
+                NGO
               </h1>
             </div>
             <div className="flex space-x-[170px] pt-[10px]">
@@ -118,13 +118,13 @@ export function Footer (props)  {
                   className=" flex flex-col items-start w-full text-[16px] space-y-[14px] font-[Lato] justify-between  text-[#999]"
                 >
                   <Link className="hover:text-blue-500 transition-all" to={"/"}>
-                    How can I search for a specific job ?
+                    How can I search for a specific work ?
                   </Link>
                   <Link className="hover:text-blue-500 transition-all" to={"/"}>
-                    Are there freelance jobs ?
+                    Are there freelance SocialWork ?
                   </Link>
                   <Link className="hover:text-blue-500 transition-all" to={"/"}>
-                    Can I post a jobs also
+                    Can I post a work requirement
                   </Link>
                 </ul>
               </div>
@@ -153,7 +153,7 @@ export function Footer (props)  {
               target="_blank"
             >
               Developer and maintained by{" "}
-              <span className="hover:text-blue-500 transition-all"> Regis</span>
+              <span className="hover:text-blue-500 transition-all"> M.K.Jayanthi Maam</span>
             </a>
           </div>
         </div>

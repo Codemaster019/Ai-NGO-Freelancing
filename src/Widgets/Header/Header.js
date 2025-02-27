@@ -23,7 +23,7 @@ export default function Header({ headerClassName, style, inputStyle }) {
             <div className="flex items-center justify-between w-full">
               <div className="flex items-center space-x-[90px] justify-between w-full">
                 <p className="text-[#0050C8] text-[20px] font-bold">
-                  TheJobportal
+                  NGO
                 </p>
                 <ul
                   style={{ fontFamily: "Lato, sans-serif" }}
@@ -114,7 +114,7 @@ export default function Header({ headerClassName, style, inputStyle }) {
             <div className="flex items-center justify-between w-full">
               <div className="flex items-center space-x-[90px] justify-between w-full">
                 <h1 className="text-[#0050C8] text-[20px] font-bold">
-                  TheJobportal
+                  NGO
                 </h1>
                 <ul
                   style={{ fontFamily: "Lato, sans-serif" }}
@@ -167,7 +167,7 @@ export default function Header({ headerClassName, style, inputStyle }) {
                     color="primary"
                     onClick={() => navigate("/user/register")}
                   >
-                    I'm a developer{" "}
+                    I'm a SocialWorker{" "}
                   </Button>
                   <Button
                     variant="contained"
@@ -176,7 +176,7 @@ export default function Header({ headerClassName, style, inputStyle }) {
                       navigate(`${token ? "/comprofile" : "/company/register"}`)
                     }
                   >
-                    Hire developers
+                    Hire SocialWorker
                   </Button>
                 </div>
               </div>

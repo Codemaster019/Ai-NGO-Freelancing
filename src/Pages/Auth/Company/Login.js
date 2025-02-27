@@ -17,7 +17,6 @@ import checkIcon from "../../../Assets/Icons/check.png";
 import crossIcon from "../../../Assets/Icons/cross.png";
 import closeEye from "../../../Assets/Icons/close eye.png";
 import successImg from "../../../Assets/Images/check-your-inbox.png";
-import SuperCoderLogo from "./../../../Assets/Images/SuperCoderLogo.svg";
 import eyeIcon from "../../../Assets/Icons/eye.png";
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
@@ -206,7 +205,6 @@ export default function CompanyLogin() {
       </Box>
       <div className="container max-w-[1519px] ">
         <div className="w-full flex justify-between py-[20px] items-center">
-          <img src={SuperCoderLogo} alt="SuperCoderLogo" width={160} />
           <Link
             onClick={() => {}}
             to={"/company/register"}

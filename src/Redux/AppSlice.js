@@ -1,79 +1,55 @@
 import { createSlice } from "@reduxjs/toolkit";
 import react from "./../Assets/Images/react.png";
-import {
-  php,
-  python,
-  android,
-  angular,
-  node,
-  ruby,
-  java,
-  c,
-  apple,
-  flutter,
-} from "../important_images";
 
 export const AppSlice = createSlice({
   name: "App",
   initialState: [
     {
-      imgLink: react,
-      title: "ReactJS",
+      title: "Teacher",
       selected: false,
     },
     {
-      imgLink: node,
       selected: false,
-      title: "NodeJS",
-    },
-    {
-      imgLink: python,
-      selected: false,
-      title: "Python",
+      title: "Nurse",
     },
     {
       selected: false,
-      imgLink: angular,
-      title: "Angular",
+      title: "Fundraiser",
     },
     {
-      imgLink: apple,
       selected: false,
-      title: "IOS",
+      title: "Project Manager",
     },
     {
-      imgLink: react,
       selected: false,
-      title: "ReactNative",
+      title: "Sanitary Worker",
     },
     {
-      imgLink: android,
-      title: "Android",
       selected: false,
+      title: "Financer",
     },
     {
-      imgLink: java,
-      title: "Java",
+      title: "Community Organiser",
       selected: false,
     },
     {
-      imgLink: ruby,
-      title: "Ruby on Rails",
+      title: "Public Relations",
       selected: false,
     },
     {
-      imgLink: c,
-      title: "C#",
+      title: "Medical Worker",
       selected: false,
     },
     {
-      imgLink: flutter,
-      title: "Flutter",
+      title: "Legal Advisor",
       selected: false,
     },
     {
-      imgLink: php,
-      title: "PHP",
+      title: "Content Writer",
+      selected: false,
+    },
+    {
+      title: "IT Specialist",
       selected: false,
     },
   ],

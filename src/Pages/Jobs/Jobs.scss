@@ -53,17 +53,6 @@
   background: rgba($color: #000, $alpha: 0.5);
 }
 
-.jobs__modal-content {
-  position: relative;
-  margin: 50px auto;
-  background: #fff;
-  width: 50vw;
-  z-index: 1101;
-  border-radius: 4px;
-  box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024,
-    0 9px 46px 8px #0000001f;
-}
-
 .jobs__modal-header {
   padding: 24px;
   display: flex;

@@ -1,4 +1,3 @@
-import SuperCoderLogo from "./../../../Assets/Images/SuperCoderLogo.svg";
 import NotSure from "../../../Assets/Images/Not_Sure.svg";
 import AppCard from "../../../Components/Authentification/AppCard";
 import { useDispatch, useSelector } from "react-redux";
@@ -6,18 +5,6 @@ import eyeIcon from "../../../Assets/Icons/eye.png";
 import react from "./../../../Assets/Images/react.png";
 import backImg from "../../../Assets/Icons/back.svg";
 import closeEye from "../../../Assets/Icons/close eye.png";
-import {
-  php,
-  python,
-  android,
-  angular,
-  node,
-  ruby,
-  java,
-  c,
-  apple,
-  flutter,
-} from "../../../important_images";
 
 import checkIcon from "../../../Assets/Icons/check.png";
 import crossIcon from "../../../Assets/Icons/cross.png";
@@ -282,7 +269,6 @@ export default function CompanyRegister() {
         <div className="flex flex-col">
           {/* Left Content */}
           <div className="w-full flex justify-end md:justify-between py-[20px] items-center">
-            <img src={SuperCoderLogo} className="hidden md:flex" alt="SuperCoderLogo" width={160} />
             <button
               onClick={() => navigate("/company/login")}
               className="w-[200px] text-center hover:bg-[#2144a5] transition-all rounded-3xl bg-[#3A6FFF] text-white font-bold py-[8px] text-sm"
@@ -296,10 +282,10 @@ export default function CompanyRegister() {
               <div className="flex flex-col relative max-w-[512px] mx-auto items-center justify-center">
                 <div className="flex flex-col items-center mb-[20px] justify-center">
                   <h1 className="text-[26px] font-bold text-[#3A6FFF]">
-                    Supercoder
+                    NGO
                   </h1>
                   <p className="text-[#2F2F2F] text-[19px]">
-                    Find developers to hire
+                    Find Social Workers to hire
                   </p>
                   <span className="text-[#ACB6C8] text-[12px] font-bold cursor-pointer leading-[14px]">
                     Select all that apply
@@ -342,15 +328,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={react}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          ReactJS
+                          Teacher
                         </div>
                       </div>
                       <div
@@ -361,15 +340,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={node}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          NodeJS
+                          Nurse
                         </div>
                       </div>
                       <div
@@ -380,15 +352,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={python}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          Python
+                          Fund Raiser
                         </div>
                       </div>
                       <div
@@ -399,15 +364,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={angular}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          Angular
+                          Project Manager
                         </div>
                       </div>
                       <div
@@ -418,15 +376,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={apple}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          IOS
+                          Sanitary Worker
                         </div>
                       </div>
                       <div
@@ -437,15 +388,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={react}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          ReactNative
+                          Financer
                         </div>
                       </div>
                       <div
@@ -456,15 +400,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={android}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          Android
+                          Community Organiser
                         </div>
                       </div>
                       <div
@@ -475,15 +412,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={java}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          Java
+                          Public Relations
                         </div>
                       </div>
                       <div
@@ -494,15 +424,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={ruby}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          Ruby on Rails
+                          Medical Worker
                         </div>
                       </div>
                       <div
@@ -513,15 +436,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={c}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          C#
+                          Legal Advisor
                         </div>
                       </div>
                       <div
@@ -532,15 +448,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={flutter}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          Flutter
+                          Content Writer
                         </div>
                       </div>
                       <div
@@ -551,15 +460,8 @@ export default function CompanyRegister() {
                             : "border-[#ACB6C8] bg-white"
                         }`}
                       >
-                        <img
-                          src={php}
-                          alt="skill"
-                          width={40}
-                          height={40}
-                          className={""}
-                        />
                         <div className="text-center font-bold leading-4 ">
-                          PHP
+                          IT Specialist
                         </div>
                       </div>
                     </div>
@@ -604,7 +506,7 @@ export default function CompanyRegister() {
                           />
                           {/*  */}
                           <p className=" text-[16px] font-semibold leading-[16px] mb-[6px] mt-[18px]">
-                            How soon do you need to hire developers?
+                            How soon do you need to social worker?
                           </p>
                           <Select
                             value={time}
@@ -763,10 +665,10 @@ export default function CompanyRegister() {
                 <div className="flex flex-col items-center justify-center mx-auto max-w-[512px] relative">
                   <div className="flex flex-col items-center mb-[20px] justify-center">
                     <h1 className="text-[26px] font-bold text-[#3A6FFF]">
-                      Supercoder
+                      NGO
                     </h1>
                     <p className="text-[#2F2F2F] text-[19px]">
-                      Let us find the right software engineers
+                      Let us find the right social worker
                     </p>
                     <Chip
                       label={`Step ${step}/3`}
@@ -1008,7 +910,7 @@ export default function CompanyRegister() {
                   </Container>
                   <div className="text-[14px] p-[20px] flex flex-col max-w-[512px] items-center justify-center">
                     <p className="text-center">
-                      By requesting a developer recruitment, you are deemed to
+                      By requesting a social worker recruitment, you are deemed to
                       have agreed to our{" "}
                       <Link
                         href="#!"
@@ -1030,11 +932,11 @@ export default function CompanyRegister() {
                   <div className="flex flex-col relative w-[512px] mx-auto items-center justify-center">
                     <div className="flex flex-col space-y-7 items-center mb-[20px] justify-center">
                       <h1 className="text-[26px] font-black text-center  text-[#3A6FFF]">
-                        Thank You For Reaching <br /> Out To Supercoder!
+                        Thank You For Reaching <br /> Out To NGO
                       </h1>
                       <img src={successImg} alt="successImg" />
                       <p className="text-[#2F2F2F] w-[420px] font-normal leading-[20px] text-center justify-start self-start text-[14px]">
-                        Supercoder team will take the time to learn more about
+                        NGO team will take the time to learn more about
                         your business in order to determine whether a
                         partnership would be beneficial. If we think there’s a
                         good fit, we will be in touch.
@@ -1084,85 +986,40 @@ export default function CompanyRegister() {
 
 const allSkills = [
   {
-    language: "JavaScript",
+    language: "Teacher",
   },
   {
-    language: "Python",
+    language: "Nurse",
   },
   {
-    language: "Java",
+    language: "Fundraiser",
   },
   {
-    language: "C++",
+    language: "Project Manager",
   },
   {
-    language: "C#",
+    language: "Sanitary Worker",
   },
   {
-    language: "Ruby",
+    language: "Financer",
   },
   {
-    language: "PHP",
+    language: "Community Organiser",
   },
   {
-    language: "Swift",
+    language: "Public Relations",
   },
   {
-    language: "Go",
+    language: "Medical Worker",
   },
   {
-    language: "Kotlin",
+    language: "Legal Advisor",
   },
   {
-    language: "Rust",
+    language: "Content Writer",
   },
   {
-    language: "TypeScript",
-  },
-  {
-    language: "Scala",
-  },
-  {
-    language: "Perl",
-  },
-  {
-    language: "Haskell",
-  },
-  {
-    language: "Lua",
-  },
-  {
-    language: "Dart",
-  },
-  {
-    language: "MATLAB",
-  },
-  {
-    language: "R",
-  },
-  {
-    language: "Objective-C",
-  },
-  {
-    language: "Groovy",
-  },
-  {
-    language: "Perl",
-  },
-  {
-    language: "VB.NET",
-  },
-  {
-    language: "F#",
-  },
-  {
-    language: "COBOL",
-  },
-  {
-    language: "Fortran",
-  },
-  {
-    language: "Ada",
+    language: "IT Specialist",
   },
 ];
 const Funding_Rounds = [

@@ -15,7 +15,6 @@ import crossIcon from "../../../../Assets/Icons/cross.png";
 import GoogleIcon from "../../../../Assets/Icons/GoogleIcon.svg";
 import { Link as LinkDom } from "react-router-dom";
 import { Backdrop, Fade, Modal } from "@mui/material";
-import Logo from "./../../../../Assets/Images/SuperCoderLogoForDeveloper.svg";
 
 export const RightContent = ({
   email,
@@ -104,14 +103,6 @@ export const RightContent = ({
           {forgotPassword ? (
             <>
               <main className="relative w-full flex-col h-screen flex items-center justify-center">
-                <img
-                  src={Logo}
-                  width={70}
-                  height={41}
-                  className="mb-[30px] block md:hidden cursor-pointer"
-                  alt="site-logo"
-                  onClick={() => navigate("/")}
-                />
                 <div className="flex rounded-md flex-col z-40 space-y-[40px] w-5/6 md:w-1/2 pb-[20px] items-center px-[10px] md:px-[30px]  bg-white">
                   <Box
                     sx={{
@@ -132,7 +123,7 @@ export const RightContent = ({
                       }}
                       className="mx-auto w-full text-center font-bold text-black "
                     >
-                      Log in as a developer
+                      Log in as a SocialWorker
                     </Typography>
 
                     <img
@@ -333,14 +324,7 @@ export const RightContent = ({
             </>
           ) : (
             <main className="relative w-full flex-col h-screen flex items-center justify-center">
-              <img
-                src={Logo}
-                width={70}
-                height={41}
-                className="mb-[30px]  block md:hidden cursor-pointer"
-                alt="site-logo"
-                onClick={() => navigate("/")}
-              />
+      
               <div className="flex rounded-md flex-col z-40 space-y-[40px] w-5/6 transition-all duration-150 md:w-1/2 pb-[20px] items-center px-[30px]  bg-white">
                 <Box
                   sx={{
@@ -361,7 +345,7 @@ export const RightContent = ({
                     }}
                     className="mx-auto w-full text-center text-[20px] transition-all duration-150 md:text-[26px]  font-bold text-black "
                   >
-                    Log in as a developer
+                    Log in as a SocialWorker
                   </Typography>
                   <Box
                     component="form"

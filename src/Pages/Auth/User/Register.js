@@ -6,7 +6,6 @@ import { useNavigate, Link as LinkDom } from "react-router-dom";
 import GoogleIcon from "../../../Assets/Icons/GoogleIcon.svg";
 import eyeIcon from "../../../Assets/Icons/eye.png";
 import closeEye from "../../../Assets/Icons/close eye.png";
-import Logo from "./../../../Assets/Images/SuperCoderLogoForDeveloper.svg";
 import checkIcon from "../../../Assets/Icons/check.png";
 import crossIcon from "../../../Assets/Icons/cross.png";
 import mainImg from "../../../Assets/Images/authenticate-img.svg";
@@ -255,22 +254,14 @@ export default function Register() {
         {/* Left side */}
         <div className="w-1/4 md:flex bg-[#19378b] p-[50px] relative h-screen hidden flex-col justify-between">
           <div className="w-full text-white">
-            <img
-              src={Logo}
-              width={70}
-              height={41}
-              className="mb-[60px] cursor-pointer"
-              onClick={() => navigate("/")}
-              alt="site-logo"
-            />
             <h2 className="mb-[25px] leading-tight text-[22px] font-bold">
-              Upgrade your life with a global tech HR platform
+            Upgrade your life with a social worker NGO platform
             </h2>
             <p className="tracking-tight leading-tight">
-              Access to a wide range of remote jobs, allowing for a better
-              work-life balance, increased productivity, and reduced stress
-              levels. Join today and start experiencing the benefits of remote
-              work.
+            Access to a wide range of social works, allowing for a better
+                lifestyle of other people, as well as reduced poverty levels in
+                the world. Join today and start experiencing the benefits of social
+                work.
             </p>
           </div>
           <img
@@ -295,7 +286,7 @@ export default function Register() {
                   fontWeight: 600,
                 }}
               >
-                Sign up as a developer
+                Sign up as a Social worker
               </Typography>
               <Typography
                 component="h6"
@@ -499,7 +490,7 @@ export default function Register() {
                     size={window.innerWidth > 516 ? "medium" : "small"}
                     className="w-full w mx-auto z-50 transition-all bg-[#0050C8] font-normal active:bg-blue-800 hover:bg-blue-600 text-[14px] md:text-[16px] text-white rounded-md "
                   >
-                    Create Your Supercoder Account
+                    Create Your Social Worker Account
                   </Button>
                 </Grid>
                 <Grid

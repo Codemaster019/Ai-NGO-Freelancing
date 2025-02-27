@@ -9,14 +9,14 @@ export const Deactivated = () => {
           <div className="all__deactivated">
             <h2 className="all__deactivated-title">Deactivated</h2>
             <p className="all__deactivated-text">
-              Please contact TheJobPortal Team to activate the access to
-              TheJobPortal Talent Pool via
+              Please contact NGO Team to activate the access to
+              NGO Talent Pool via
             </p>
             <a
               className="all__deactivated-link"
-              href="mailto:support@johnhocadev"
+              href="mailto:pranavzhawar2022@vitbhopal.ac.in"
             >
-              support@johnhocadev.co
+              pranavzhawar2022@vitbhopal.ac.in
             </a>
           </div>
         </div>

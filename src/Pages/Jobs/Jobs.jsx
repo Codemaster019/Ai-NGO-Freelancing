@@ -317,7 +317,7 @@ export const Jobs = () => {
         <div className="jobs__modal">
           <div className="jobs__modal-content">
             <div className="jobs__modal-header">
-              <p className="jobs__modal-title">Apply for the job?</p>
+              <p className="jobs__modal-title">Apply for the SocialWork</p>
               <button
                 type="button"
                 className="xIcon"
@@ -328,10 +328,10 @@ export const Jobs = () => {
             </div>
             <div className="jobs__modal-info-wrapper">
               <p className="jobs__modal-text">
-                Your profile will be shared with the company you are applying
+                Your profile will be shared with the NGO you are applying
                 for.
               </p>
-              <strong>Increase your change to get this job</strong>
+              <strong>Increase your chance to get this work</strong>
               <p>Complete your profile and take assessment of your skill</p>
             </div>
             <div className="jobs__modal-footer">
@@ -367,8 +367,7 @@ export const Jobs = () => {
         <div className="container">
           <div className="jobs-inner">
             <div className="jobs-inner__hero">
-              <h2 className="jobs-title">Jobs</h2>
-              <p className="jobs-text">Find your dream job</p>
+              <h2 className="jobs-title">Social Work</h2>
             </div>
             <form
               onSubmit={handleSearchSubmit}
@@ -385,7 +384,7 @@ export const Jobs = () => {
                   style={placeholder ? { display: "none" } : {}}
                   class="placeholder"
                 >
-                  <b class="placeholder-important">What </b> The kind of job you
+                  <b class="placeholder-important">What </b> The kind of work you
                   want
                 </span>
               </div>
@@ -533,7 +532,7 @@ export const Jobs = () => {
                   <div className="job-more-wrapper">
                     <div className="more-upper">
                       <div className="more-inner">
-                        <h3 className="more-title">Job Details</h3>
+                        <h3 className="more-title">Work Details</h3>
                         <div className="more-wrapper__img">
                           <img
                             onClick={() => setJobCardOpen(false)}
@@ -617,8 +616,8 @@ export const Jobs = () => {
                           onClick={handleApply}
                           className="more-upper__applyBtn"
                         >
-                          Apply for this job
-                        </button> : <p className="more-upper__apply-text">You have already applied for this job</p>}
+                          Apply for the work
+                        </button> : <p className="more-upper__apply-text">You have already applied for the desired work</p>}
                       </div>
                     </div>
                   </div>
@@ -631,7 +630,7 @@ export const Jobs = () => {
                       width={145}
                     />
                     <p className="preview__text">
-                      Click on a job to preview its full job details here
+                      Click on a work to preview its full details here
                     </p>
                   </div>
                 )}
@@ -642,7 +641,7 @@ export const Jobs = () => {
           ) : (
             //* Shows this message if no any job
             <p className="no-results-message">
-              No jobs found matching your search criteria.
+              No work found matching your search criteria.
             </p>
           )}
         </div>
